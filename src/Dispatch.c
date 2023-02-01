@@ -1,7 +1,7 @@
 #include "Dispatch.h"
 
 double dispatch(double money, double frequency){
-    return (double)(money + ((100 * frequency) / money));
+    return (double)(money + (money * (frequency / 100)));
 }
 
 Dispatch new_Dispatch(void){
