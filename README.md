@@ -9,3 +9,5 @@ gcc -c src\Systemout.c -I inc\
 gcc -c src\Dispatch.c -I inc\  
 
 gcc -o main main.o Dispatch.o Systemout.o Scanner.o
+
+.\main

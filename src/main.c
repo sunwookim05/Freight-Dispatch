@@ -16,7 +16,7 @@ int main(void){
     System.out.print("Enter the frequency: ");
     frequency = sc.nextDouble();
 
-    System.out.println("The money is: %f", dis.dispatch(money, frequency));
+    System.out.println("The money is: %lf", dis.dispatch(money, frequency));
 
     return 0;
 }
